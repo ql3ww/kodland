@@ -1,0 +1,19 @@
+meme_sozluk = {
+    "GG" :"İyi Oyun/Good Gome demek",
+    "LOL" : "Komik Şeye Verilen Cevap",
+    "CRINGE" : "Garip yada utandırıcı bir şey",
+    "ROFL" :"Bir şakaya karşılık cevap",
+    "AGGRO" : "agresifleşmek/sinirlenmek",
+    "SHEESH" : "onaylamamak"
+}
+
+world = input("Anlamını merak ettiginiz kelimeyi yazın").upper()
+if world in meme_sozluk.keys():
+     print(meme_sozluk[world])
+else: 
+    print("Aradıgını kelimeyi bulamadım")
+    
+    
+    
+
+    
